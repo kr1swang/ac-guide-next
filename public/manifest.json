@@ -1,16 +1,27 @@
 {
-  "name": "ac-guide 動森圖鑑",
-  "short_name": "ac-guide",
+  "name": "Create React App",
+  "short_name": "React App",
   "lang": "zh-Hant-TW",
-  "display": "standalone",
-  "theme_color": "#4AA2AE",
-  "background_color": "#ffffff",
-  "description": "ac-guide 動森圖鑑",
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#97A3AB",
+  "background_color": "#263238",
+  "description": "Web site created using Create React App",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }

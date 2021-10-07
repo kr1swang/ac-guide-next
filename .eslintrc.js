@@ -1,5 +1,4 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
   env: {
     browser: true,
     es2021: true,
@@ -9,16 +8,11 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
-    ecmaVersion: 2020,
+    ecmaVersion: 12,
     sourceType: 'module'
   },
-  extends: [
-    'standard',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
-  ],
-  plugins: ['react', '@typescript-eslint', 'jest'],
+  extends: ['standard', 'plugin:react/recommended'],
+  plugins: ['react', 'jest'],
   settings: {
     react: {
       version: 'detect'
